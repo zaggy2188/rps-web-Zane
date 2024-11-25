@@ -5,7 +5,8 @@
     <title>RPS Web App</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body onload = "showRound();">
+    <div id="statsBox">Loading ...</div>
     <button onclick="cpuTurn('r');">Rock</button>
     <button onclick="cpuTurn('p');">Paper</button>
     <button onclick="cpuTurn('s');">Scissors</button>
