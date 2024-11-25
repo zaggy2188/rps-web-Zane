@@ -12,6 +12,7 @@ function getRounds(){
  * Checks if rounds are odd. If even, warning message. 
  * Otherwise, sets round to 1, stores rounds and round in localStorage and loads chooser.html. 
  * @param = founds
+ * @localStorage => round, rounds
  * @return = none
  */
 function setRounds(rounds){
@@ -28,6 +29,7 @@ function setRounds(rounds){
 /* Function showRound
  * Gets rounds and round from local storage and displays in chooser.html.
  * @param = none
+ * @localStorage => round, rounds
  * @return = none
  */
 function showRound(){
@@ -55,6 +57,7 @@ function cpuTurn(u){
  * Checks if u & c are equal.  If not, finds winner and updates showRound, 
  * Incrementing round and saving to local storage.
  * @param = u,c
+ * @localStorage <=> round++
  * @return = none
  */
 function findWinner(u,c){
