@@ -35,6 +35,9 @@ function setRounds(rounds){
 function showRound(){
     let round = localStorage.getItem("round");
     let rounds = localStorage.getItem("rounds");
+    if (round > rounds) {
+        window.location.href = "gameover.html";
+    }
     let statsBox = document.getElementById("statsBox");
     let message = "Round " + round + " of " + rounds;
     statsBox.innerHTML = message;
