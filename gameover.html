@@ -5,10 +5,11 @@
     <title>RPS Web App</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body onload = "gameOver()">
     <h1>Rock Paper Scissors</h1>
+    <div id="scoreBox" class="over">Score: loading</div>
     <h2>Game Over!</h2>
-    <button onclick="getRounds();">Play Again?</button>
+    <button onclick="window.location.href = 'index.html';">Play Again?</button>
     <script src="script.js"></script>
   </body>
 </html>
