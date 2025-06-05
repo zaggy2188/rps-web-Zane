@@ -1,3 +1,20 @@
 body {
   background-color:lavender;
+  position:relative;
+}
+#scoreBox {
+  position:absolute; 
+  right:10px; 
+  top: 10px; 
+  border:1px solid black; 
+  background:white;
+  padding:10px;
+}
+
+.over {
+  font-size:24pt;
+  position:static!important;
+  margin:auto;
+  text-align:center;
+  width:10em;
 }
