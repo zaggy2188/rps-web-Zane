@@ -18,3 +18,30 @@ body {
   text-align:center;
   width:10em;
 }
+
+#picture {
+  margin:auto;
+  width: 700px;
+  height: 210px;
+  padding:0;
+}
+
+#picture img, #picture button {
+  width: 200px;
+  height: 200px;
+  border-radius:20px;
+  margin:0;
+  float:left;
+  margin-right:10px;
+  border: 5px solid black;
+}
+
+#picture img:hover, #picture button:hover {
+  opacity:.5;
+}
+
+#result {
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Courier New', Courier, monospace;
+}
